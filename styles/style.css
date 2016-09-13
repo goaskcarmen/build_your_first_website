@@ -1,0 +1,28 @@
+h1
+{
+  border: 5px solid black;
+  background-color: darkseagreen;
+}
+
+body
+{
+  background-color: aliceblue;
+}
+
+img.normal
+{
+  display: block;
+
+}
+img.movetoleft
+{
+  margin-left: 20em;
+}
+p
+{
+  font-family: Times, sans-serif;
+}
+ul
+{
+    list-style-type: none;
+}
