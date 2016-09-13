@@ -1,28 +1,82 @@
+/* stylesheet */
+
 h1
 {
   border: 5px solid black;
   background-color: darkseagreen;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 body
 {
   background-color: aliceblue;
+  font-family: Times, sans-serif;
+  color: Navy;
 }
 
-img.normal
-{
-  display: block;
+a:hover {
+  color: Sienna;
+  font-weight: bold;
+}
 
+a:active {
+  font-size: 1.25rem;
 }
-img.movetoleft
+
+ul
 {
-  margin-left: 20em;
+  list-style-type: none;
 }
+
 p
 {
   font-family: Times, sans-serif;
 }
-ul
-{
-    list-style-type: none;
+
+footer {
+  clear: both;
+  border: 2px solid Sandybrown;
+  background-color: Navy;
+  color: white;
+
+}
+
+
+/******************/
+/*     index      */
+/******************/
+
+.image li {
+  float: left;
+  padding: 30px 20px 50px 20px;
+}
+
+/*************************/
+/*     eloquentRuby      */
+/*************************/
+
+.bookinfo {
+  float: left;
+  padding-right: 20px;
+}
+
+.align-title {
+  text-align: center;
+  border: 1px solid black;
+}
+
+
+/********************/
+/*     contact      */
+/********************/
+
+.maintain-image {
+  float:left;
+}
+
+.enterline {
+  margin-top: 50px;
+  clear: both;
 }
